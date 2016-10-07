@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		10AB143F43BBBEE94FAAEAB8 /* Pods_ARKExample.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3CB3E15C9CB97CDC6D8CCFD3 /* Pods_ARKExample.framework */; };
 		C5AB7A9E1DA78CD2008BEC20 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5AB7A9D1DA78CD2008BEC20 /* AppDelegate.swift */; };
 		C5AB7AA01DA78CD2008BEC20 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5AB7A9F1DA78CD2008BEC20 /* ViewController.swift */; };
 		C5AB7AA31DA78CD2008BEC20 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C5AB7AA11DA78CD2008BEC20 /* Main.storyboard */; };
@@ -37,6 +38,9 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		287F9C3E2923106554DB066C /* Pods-ARKExample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ARKExample.release.xcconfig"; path = "Pods/Target Support Files/Pods-ARKExample/Pods-ARKExample.release.xcconfig"; sourceTree = "<group>"; };
+		3CB3E15C9CB97CDC6D8CCFD3 /* Pods_ARKExample.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ARKExample.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F6949E59A52427B3C797748 /* Pods-ARKExample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ARKExample.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ARKExample/Pods-ARKExample.debug.xcconfig"; sourceTree = "<group>"; };
 		C5AB7A9A1DA78CD2008BEC20 /* ARKExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ARKExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C5AB7A9D1DA78CD2008BEC20 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C5AB7A9F1DA78CD2008BEC20 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -60,6 +64,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				10AB143F43BBBEE94FAAEAB8 /* Pods_ARKExample.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -72,6 +77,8 @@
 				C5AB7ACA1DA857CE008BEC20 /* Images */,
 				C5AB7A9C1DA78CD2008BEC20 /* ARKExample */,
 				C5AB7A9B1DA78CD2008BEC20 /* Products */,
+				E5074F06B03EEA1C3160BA28 /* Pods */,
+				CB44D0CCF45D16917ED68D1E /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -86,15 +93,13 @@
 		C5AB7A9C1DA78CD2008BEC20 /* ARKExample */ = {
 			isa = PBXGroup;
 			children = (
-				C5AB7AD71DA857F8008BEC20 /* ConsentDocument.swift */,
-				C5AB7AD81DA857F8008BEC20 /* ConsentTask.swift */,
+				C5AB7ADB1DA85DF9008BEC20 /* ARKTasks */,
 				C5AB7A9D1DA78CD2008BEC20 /* AppDelegate.swift */,
 				C5AB7A9F1DA78CD2008BEC20 /* ViewController.swift */,
 				C5AB7AA11DA78CD2008BEC20 /* Main.storyboard */,
 				C5AB7AA41DA78CD2008BEC20 /* Assets.xcassets */,
 				C5AB7AA61DA78CD2008BEC20 /* LaunchScreen.storyboard */,
 				C5AB7AA91DA78CD2008BEC20 /* Info.plist */,
-				C5AB7AC21DA821C9008BEC20 /* SurveyTask.swift */,
 			);
 			path = ARKExample;
 			sourceTree = "<group>";
@@ -112,6 +117,33 @@
 			name = Images;
 			sourceTree = "<group>";
 		};
+		C5AB7ADB1DA85DF9008BEC20 /* ARKTasks */ = {
+			isa = PBXGroup;
+			children = (
+				C5AB7AD71DA857F8008BEC20 /* ConsentDocument.swift */,
+				C5AB7AD81DA857F8008BEC20 /* ConsentTask.swift */,
+				C5AB7AC21DA821C9008BEC20 /* SurveyTask.swift */,
+			);
+			name = ARKTasks;
+			sourceTree = "<group>";
+		};
+		CB44D0CCF45D16917ED68D1E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3CB3E15C9CB97CDC6D8CCFD3 /* Pods_ARKExample.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E5074F06B03EEA1C3160BA28 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3F6949E59A52427B3C797748 /* Pods-ARKExample.debug.xcconfig */,
+				287F9C3E2923106554DB066C /* Pods-ARKExample.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -119,10 +151,13 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C5AB7AAC1DA78CD2008BEC20 /* Build configuration list for PBXNativeTarget "ARKExample" */;
 			buildPhases = (
+				0EE1589C42D709D05B6AC962 /* [CP] Check Pods Manifest.lock */,
 				C5AB7A961DA78CD2008BEC20 /* Sources */,
 				C5AB7A971DA78CD2008BEC20 /* Frameworks */,
 				C5AB7A981DA78CD2008BEC20 /* Resources */,
 				C5AB7ABD1DA78D59008BEC20 /* Embed Frameworks */,
+				410FAD83E460E641C18EAAEF /* [CP] Embed Pods Frameworks */,
+				C1B04FD202D4659CFDF152AD /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -187,6 +222,54 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0EE1589C42D709D05B6AC962 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		410FAD83E460E641C18EAAEF /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ARKExample/Pods-ARKExample-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C1B04FD202D4659CFDF152AD /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ARKExample/Pods-ARKExample-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		C5AB7A961DA78CD2008BEC20 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -225,6 +308,7 @@
 		C5AB7AAA1DA78CD2008BEC20 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
@@ -265,6 +349,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
+				OTHER_LDFLAGS = "$(inherited)";
 				SDKROOT = iphoneos;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
@@ -275,6 +360,7 @@
 		C5AB7AAB1DA78CD2008BEC20 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
@@ -308,6 +394,7 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "$(inherited)";
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -317,12 +404,18 @@
 		};
 		C5AB7AAD1DA78CD2008BEC20 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3F6949E59A52427B3C797748 /* Pods-ARKExample.debug.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 5SKXDFSWYL;
 				INFOPLIST_FILE = ARKExample/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-framework",
+					"\"ResearchKit\"",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.ark.ARKExample;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
@@ -331,12 +424,18 @@
 		};
 		C5AB7AAE1DA78CD2008BEC20 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 287F9C3E2923106554DB066C /* Pods-ARKExample.release.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 5SKXDFSWYL;
 				INFOPLIST_FILE = ARKExample/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-framework",
+					"\"ResearchKit\"",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.ark.ARKExample;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;

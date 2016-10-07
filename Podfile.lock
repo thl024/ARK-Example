@@ -1,0 +1,21 @@
+PODS:
+  - ResearchKit (1.3.1)
+
+DEPENDENCIES:
+  - ResearchKit (from `https://github.com/ResearchKit/ResearchKit.git`)
+
+EXTERNAL SOURCES:
+  ResearchKit:
+    :git: https://github.com/ResearchKit/ResearchKit.git
+
+CHECKOUT OPTIONS:
+  ResearchKit:
+    :commit: ead0650dfbceb83fb20b92a82c4ce3bf14009ecd
+    :git: https://github.com/ResearchKit/ResearchKit.git
+
+SPEC CHECKSUMS:
+  ResearchKit: ddb75b426f6537a376841b783e2ba7078833d65f
+
+PODFILE CHECKSUM: 5f685dd55c6cadb35a3338f15878e7f1ceebb049
+
+COCOAPODS: 1.1.0.rc.2
