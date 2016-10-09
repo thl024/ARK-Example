@@ -58,6 +58,14 @@
                                     <action selector="walkTappedWithSender:" destination="BYZ-38-t0r" eventType="touchUpInside" id="yLm-dd-ibS"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yvs-aZ-JaA">
+                                <frame key="frameInset" minX="167" minY="571" width="41" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Music"/>
+                                <connections>
+                                    <action selector="musicTappedWithSender:" destination="BYZ-38-t0r" eventType="touchUpInside" id="rv4-xZ-wjv"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </view>

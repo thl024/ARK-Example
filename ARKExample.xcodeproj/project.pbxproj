@@ -8,6 +8,16 @@
 
 /* Begin PBXBuildFile section */
 		10AB143F43BBBEE94FAAEAB8 /* Pods_ARKExample.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3CB3E15C9CB97CDC6D8CCFD3 /* Pods_ARKExample.framework */; };
+		C51773431DAB008800769E6F /* chill_preview_3.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C517733D1DAB008800769E6F /* chill_preview_3.mp3 */; };
+		C51773441DAB008800769E6F /* chill_preview_4.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C517733E1DAB008800769E6F /* chill_preview_4.mp3 */; };
+		C51773451DAB008800769E6F /* dark_preview_4.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C517733F1DAB008800769E6F /* dark_preview_4.mp3 */; };
+		C51773461DAB008800769E6F /* happy_preview_1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C51773401DAB008800769E6F /* happy_preview_1.mp3 */; };
+		C51773471DAB008800769E6F /* light_preview_2.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C51773411DAB008800769E6F /* light_preview_2.mp3 */; };
+		C51773481DAB008800769E6F /* light_preview_3.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C51773421DAB008800769E6F /* light_preview_3.mp3 */; };
+		C517734D1DAB00C300769E6F /* MusicClip.swift in Sources */ = {isa = PBXBuildFile; fileRef = C517734C1DAB00C300769E6F /* MusicClip.swift */; };
+		C517734F1DAB01B600769E6F /* MusicStep.swift in Sources */ = {isa = PBXBuildFile; fileRef = C517734E1DAB01B600769E6F /* MusicStep.swift */; };
+		C51773521DAB037700769E6F /* MusicStepViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C51773511DAB037700769E6F /* MusicStepViewController.swift */; };
+		C51773541DAB069800769E6F /* MusicTask.swift in Sources */ = {isa = PBXBuildFile; fileRef = C51773531DAB069800769E6F /* MusicTask.swift */; };
 		C52775A41DA8D21700A02D6F /* HealthKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C52775A31DA8D21700A02D6F /* HealthKit.framework */; };
 		C52775A61DA8D24600A02D6F /* HealthKitManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C52775A51DA8D24600A02D6F /* HealthKitManager.swift */; };
 		C52775A81DA9685100A02D6F /* WalkTask.swift in Sources */ = {isa = PBXBuildFile; fileRef = C52775A71DA9685100A02D6F /* WalkTask.swift */; };
@@ -46,6 +56,16 @@
 		287F9C3E2923106554DB066C /* Pods-ARKExample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ARKExample.release.xcconfig"; path = "Pods/Target Support Files/Pods-ARKExample/Pods-ARKExample.release.xcconfig"; sourceTree = "<group>"; };
 		3CB3E15C9CB97CDC6D8CCFD3 /* Pods_ARKExample.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ARKExample.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3F6949E59A52427B3C797748 /* Pods-ARKExample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ARKExample.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ARKExample/Pods-ARKExample.debug.xcconfig"; sourceTree = "<group>"; };
+		C517733D1DAB008800769E6F /* chill_preview_3.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = chill_preview_3.mp3; path = Audio/chill_preview_3.mp3; sourceTree = "<group>"; };
+		C517733E1DAB008800769E6F /* chill_preview_4.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = chill_preview_4.mp3; path = Audio/chill_preview_4.mp3; sourceTree = "<group>"; };
+		C517733F1DAB008800769E6F /* dark_preview_4.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = dark_preview_4.mp3; path = Audio/dark_preview_4.mp3; sourceTree = "<group>"; };
+		C51773401DAB008800769E6F /* happy_preview_1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = happy_preview_1.mp3; path = Audio/happy_preview_1.mp3; sourceTree = "<group>"; };
+		C51773411DAB008800769E6F /* light_preview_2.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = light_preview_2.mp3; path = Audio/light_preview_2.mp3; sourceTree = "<group>"; };
+		C51773421DAB008800769E6F /* light_preview_3.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = light_preview_3.mp3; path = Audio/light_preview_3.mp3; sourceTree = "<group>"; };
+		C517734C1DAB00C300769E6F /* MusicClip.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MusicClip.swift; sourceTree = "<group>"; };
+		C517734E1DAB01B600769E6F /* MusicStep.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MusicStep.swift; sourceTree = "<group>"; };
+		C51773511DAB037700769E6F /* MusicStepViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MusicStepViewController.swift; sourceTree = "<group>"; };
+		C51773531DAB069800769E6F /* MusicTask.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MusicTask.swift; sourceTree = "<group>"; };
 		C52775A21DA8D21700A02D6F /* ARKExample.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = ARKExample.entitlements; sourceTree = "<group>"; };
 		C52775A31DA8D21700A02D6F /* HealthKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = HealthKit.framework; path = System/Library/Frameworks/HealthKit.framework; sourceTree = SDKROOT; };
 		C52775A51DA8D24600A02D6F /* HealthKitManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HealthKitManager.swift; sourceTree = "<group>"; };
@@ -83,9 +103,43 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		C517733C1DAB006000769E6F /* Audio */ = {
+			isa = PBXGroup;
+			children = (
+				C517733D1DAB008800769E6F /* chill_preview_3.mp3 */,
+				C517733E1DAB008800769E6F /* chill_preview_4.mp3 */,
+				C517733F1DAB008800769E6F /* dark_preview_4.mp3 */,
+				C51773401DAB008800769E6F /* happy_preview_1.mp3 */,
+				C51773411DAB008800769E6F /* light_preview_2.mp3 */,
+				C51773421DAB008800769E6F /* light_preview_3.mp3 */,
+			);
+			name = Audio;
+			sourceTree = "<group>";
+		};
+		C517734B1DAB00A900769E6F /* ARKHelpers */ = {
+			isa = PBXGroup;
+			children = (
+				C5AB7AD71DA857F8008BEC20 /* ConsentDocument.swift */,
+				C52775A51DA8D24600A02D6F /* HealthKitManager.swift */,
+				C52775A91DA9773D00A02D6F /* ResultParser.swift */,
+				C517734C1DAB00C300769E6F /* MusicClip.swift */,
+				C517734E1DAB01B600769E6F /* MusicStep.swift */,
+			);
+			name = ARKHelpers;
+			sourceTree = "<group>";
+		};
+		C51773501DAB036600769E6F /* ARKCustomControllers */ = {
+			isa = PBXGroup;
+			children = (
+				C51773511DAB037700769E6F /* MusicStepViewController.swift */,
+			);
+			name = ARKCustomControllers;
+			sourceTree = "<group>";
+		};
 		C5AB7A911DA78CD2008BEC20 = {
 			isa = PBXGroup;
 			children = (
+				C517733C1DAB006000769E6F /* Audio */,
 				C5AB7ACA1DA857CE008BEC20 /* Images */,
 				C5AB7A9C1DA78CD2008BEC20 /* ARKExample */,
 				C5AB7A9B1DA78CD2008BEC20 /* Products */,
@@ -105,6 +159,8 @@
 		C5AB7A9C1DA78CD2008BEC20 /* ARKExample */ = {
 			isa = PBXGroup;
 			children = (
+				C51773501DAB036600769E6F /* ARKCustomControllers */,
+				C517734B1DAB00A900769E6F /* ARKHelpers */,
 				C52775A21DA8D21700A02D6F /* ARKExample.entitlements */,
 				C5AB7ADB1DA85DF9008BEC20 /* ARKTasks */,
 				C5AB7A9D1DA78CD2008BEC20 /* AppDelegate.swift */,
@@ -134,12 +190,10 @@
 			isa = PBXGroup;
 			children = (
 				C5AB7ADC1DA8774A008BEC20 /* MicrophoneTask.swift */,
-				C5AB7AD71DA857F8008BEC20 /* ConsentDocument.swift */,
 				C5AB7AD81DA857F8008BEC20 /* ConsentTask.swift */,
 				C5AB7AC21DA821C9008BEC20 /* SurveyTask.swift */,
-				C52775A51DA8D24600A02D6F /* HealthKitManager.swift */,
 				C52775A71DA9685100A02D6F /* WalkTask.swift */,
-				C52775A91DA9773D00A02D6F /* ResultParser.swift */,
+				C51773531DAB069800769E6F /* MusicTask.swift */,
 			);
 			name = ARKTasks;
 			sourceTree = "<group>";
@@ -235,11 +289,17 @@
 				C5AB7AD41DA857D8008BEC20 /* yellow.png in Resources */,
 				C5AB7AA51DA78CD2008BEC20 /* Assets.xcassets in Resources */,
 				C5AB7AD11DA857D8008BEC20 /* green.png in Resources */,
+				C51773431DAB008800769E6F /* chill_preview_3.mp3 in Resources */,
+				C51773471DAB008800769E6F /* light_preview_2.mp3 in Resources */,
 				C5AB7AA31DA78CD2008BEC20 /* Main.storyboard in Resources */,
 				C5AB7AD61DA857DB008BEC20 /* purple.png in Resources */,
+				C51773441DAB008800769E6F /* chill_preview_4.mp3 in Resources */,
 				C5AB7AD31DA857D8008BEC20 /* red.png in Resources */,
+				C51773461DAB008800769E6F /* happy_preview_1.mp3 in Resources */,
 				C5AB7AD01DA857D8008BEC20 /* blue.png in Resources */,
+				C51773451DAB008800769E6F /* dark_preview_4.mp3 in Resources */,
 				C5AB7AD21DA857D8008BEC20 /* orange.png in Resources */,
+				C51773481DAB008800769E6F /* light_preview_3.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -299,13 +359,17 @@
 			buildActionMask = 2147483647;
 			files = (
 				C5AB7AA01DA78CD2008BEC20 /* ViewController.swift in Sources */,
+				C517734D1DAB00C300769E6F /* MusicClip.swift in Sources */,
 				C52775AA1DA9773D00A02D6F /* ResultParser.swift in Sources */,
+				C517734F1DAB01B600769E6F /* MusicStep.swift in Sources */,
 				C5AB7AD91DA857F8008BEC20 /* ConsentDocument.swift in Sources */,
 				C5AB7ADD1DA8774A008BEC20 /* MicrophoneTask.swift in Sources */,
 				C52775A81DA9685100A02D6F /* WalkTask.swift in Sources */,
 				C5AB7ADA1DA857F8008BEC20 /* ConsentTask.swift in Sources */,
+				C51773521DAB037700769E6F /* MusicStepViewController.swift in Sources */,
 				C5AB7AC31DA821C9008BEC20 /* SurveyTask.swift in Sources */,
 				C52775A61DA8D24600A02D6F /* HealthKitManager.swift in Sources */,
+				C51773541DAB069800769E6F /* MusicTask.swift in Sources */,
 				C5AB7A9E1DA78CD2008BEC20 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
