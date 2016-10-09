@@ -42,6 +42,22 @@
                                     <action selector="microphoneTappedWithSender:" destination="BYZ-38-t0r" eventType="touchUpInside" id="7ku-yG-RcB"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wMK-vy-Bpr">
+                                <frame key="frameInset" minX="155" minY="427" width="66" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Authorize"/>
+                                <connections>
+                                    <action selector="authorizeTappedWithSender:" destination="BYZ-38-t0r" eventType="touchUpInside" id="xoE-xJ-hDO"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xqU-Vx-Hl2">
+                                <frame key="frameInset" minX="170" minY="505" width="34" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Walk"/>
+                                <connections>
+                                    <action selector="walkTappedWithSender:" destination="BYZ-38-t0r" eventType="touchUpInside" id="yLm-dd-ibS"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </view>

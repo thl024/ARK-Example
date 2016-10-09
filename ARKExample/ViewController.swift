@@ -39,10 +39,25 @@ class ViewController: UIViewController {
         taskViewController.outputDirectory = NSURL(fileURLWithPath: NSSearchPathForDirectoriesInDomains(.documentDirectory, .userDomainMask, true)[0] , isDirectory: true) as URL
         present(taskViewController, animated: true, completion: nil)
     }
+    
+    @IBAction func authorizeTapped(sender: AnyObject) {
+        HealthKitManager.authorizeHealthKit()
+    }
+    
+    @IBAction func walkTapped(sender: AnyObject) {
+        let taskViewController = ORKTaskViewController(task: WalkTask, taskRun: nil)
+        taskViewController.delegate = self
+        taskViewController.outputDirectory = NSURL(fileURLWithPath:
+            NSSearchPathForDirectoriesInDomains(.documentDirectory, .userDomainMask, true)[0],
+                                                   isDirectory: true) as URL
+        present(taskViewController, animated: true, completion: nil)
+        HealthKitManager.startMockHeartData()
+    }
 }
 
 extension ViewController : ORKTaskViewControllerDelegate {
     func taskViewController(_ taskViewController: ORKTaskViewController, didFinishWith reason: ORKTaskViewControllerFinishReason, error: Error?) {
+        HealthKitManager.stopMockHeartData()
         taskViewController.dismiss(animated: true, completion: nil)
     }
 }
